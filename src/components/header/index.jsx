@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 const Header = () => {
   return (
     <Container>
-      <Link to="/">
+      <Link to="/redux-shop">
         <h1>Redux Shop</h1>
       </Link>
       <CartProductsCounter />
